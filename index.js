@@ -1,7 +1,7 @@
 module.exports = function(ctx, str, maxWidth) {
   var width = ctx.measureText(str).width
     , ellipsis = '...'
-    , ellipsisWidth = ctx.measureText(ellpsis).width;
+    , ellipsisWidth = ctx.measureText(ellipsis).width;
 
   if (width <= maxWidth || width <= ellipsisWidth){
     return str;
@@ -13,4 +13,4 @@ module.exports = function(ctx, str, maxWidth) {
     }
     return str+ellipsis;
   }
-}
+};
