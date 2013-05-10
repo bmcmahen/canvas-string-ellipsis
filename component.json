@@ -1,0 +1,14 @@
+{
+  "name": "canvas-text-ellipsis",
+  "repo": "bmcmahen/canvas-text-ellipsis",
+  "description": "Append an ellipsis to a string that exceeds a specified max-width",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
